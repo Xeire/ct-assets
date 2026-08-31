@@ -1,7 +1,28 @@
 {
+  "_readme": [
+    "AI Credit Tag sponsor feed. Edit this file to change what appears in the",
+    "extension. Live within 6 hours, no extension update needed.",
+    "",
+    "TO SWITCH SOMETHING OFF: set \"enabled\": false on that item.",
+    "TO SWITCH IT BACK ON: set \"enabled\": true, or delete the line.",
+    "JSON has no comments, so this flag is how you disable things.",
+    "",
+    "banners  = the picture. Only one shows at a time.",
+    "notice   = the text links under it, shown in the order listed.",
+    "label    = the corner tag. Defaults to Ad. Use \"none\" for your own",
+    "           non-promotional links, such as a tutorial.",
+    "weight   = share of impressions when several banners are enabled.",
+    "starts / ends = ISO dates. Outside the window the item is skipped.",
+    "",
+    "Anything the extension does not recognise, including this _readme, is ignored.",
+    "After editing, wait a few minutes for GitHub Pages to republish."
+  ],
+
   "version": 1,
+
   "banners": [
     {
+      "enabled": false,
       "id": "aishotstudio",
       "image": "https://aishotstudio.com/ct-assets/banner-wide-1200x240.png",
       "imageCompact": "https://aishotstudio.com/ct-assets/banner-compact-480x160.png",
@@ -10,12 +31,15 @@
       "label": "Ad"
     }
   ],
+
   "notice": [
     {
+      "enabled": false,
       "text": "Your sponsored link goes here",
       "url": "https://aishotstudio.com/?utm_source=ai-credit-tag-link"
     },
     {
+      "enabled": true,
       "text": "How the picker works: 40 second tutorial",
       "url": "https://aishotstudio.com/ai-credit-tag/tutorial",
       "label": "none"
