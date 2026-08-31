@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "banners": [
+    {
+      "id": "aishotstudio",
+      "image": "https://aishotstudio.com/ct-assets/banner-wide-1200x240.png",
+      "imageCompact": "https://aishotstudio.com/ct-assets/banner-compact-480x160.png",
+      "alt": "AIShotStudio - AI short films, made start to finish",
+      "url": "https://aishotstudio.com/?utm_source=ai-credit-tag",
+      "label": "Ad"
+    }
+  ]
+}
